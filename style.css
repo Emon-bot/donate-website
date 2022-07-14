@@ -1,0 +1,111 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    background-repeat: no-repeat;
+    width: 100%;
+    scroll-behavior: auto;
+}
+
+.header img{
+    width:100%;
+    height: 100VH;
+    filter: blur(2px);
+}
+
+.header .container{
+    text-align: center;
+    align-items: center;
+    transform: translateY(-400PX);
+    color: white;
+    font-size: 25px;
+}
+
+.header .container h1{
+    padding-bottom: 10px;
+    font-weight: 1000;
+}
+
+.header .container p{
+    font-size:20px;
+    margin-bottom: 40px;
+}
+
+a.button{
+    padding: 12px;
+    background-color: tomato;
+    text-decoration: none;
+    color: aliceblue;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+/*donation-section*/
+
+section.donation{
+    height: 60vh;
+}
+
+div.text h1{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+div.text p{
+    text-align: center;
+    width: 100%;
+    letter-spacing: 1px;
+    line-height: 25px;   
+    color: gray;
+    font-size: 20px;
+}
+
+div.box-container{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+div.box-container .box{
+    margin-left: 55px;
+    padding: 40px;
+    background-color: aliceblue;
+    color: grey;
+    font-weight: 200;
+}
+
+#active.box{
+    border: 2px solid tomato;
+    border-radius: 5px;
+    background-color: #ffeeee;
+}
+
+section.donation p{
+    text-align: center;
+    color: gray;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+section.donation hr{
+    width: 50%;
+    margin-left: 300px;
+}
+
+section.donation a.button{
+    text-align: center;
+    margin-left: 570px;
+    width: 9%;
+    display: block;
+    margin-top: 30px;
+}
+
