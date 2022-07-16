@@ -7,8 +7,8 @@
 }
 .header{
     background-repeat: no-repeat;
-    width: 100%;
-    scroll-behavior: auto;
+    width: 100%; 
+    margin-bottom: -230px;
 }
 
 .header img{
@@ -20,9 +20,9 @@
 .header .container{
     text-align: center;
     align-items: center;
-    transform: translateY(-400PX);
+    transform: translateY(-600PX);
     color: white;
-    font-size: 25px;
+    font-size: 50px;
 }
 
 .header .container h1{
@@ -109,3 +109,56 @@ section.donation a.button{
     margin-top: 30px;
 }
 
+/*Donation plan section*/
+
+section.donation-plan {
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+section.donation-plan h1{
+    font-size: 40px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+section.donation-plan p{
+    font-size: 16px;
+    color: gray;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+
+div.container3{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    column-gap: 20px;
+}
+
+div.container3 .box1{
+    padding: 10px;
+    background-color: #edf5f6;
+}
+
+ span.material-symbols-outlined{
+    margin-left: -200px;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+
+div.box1 h2{
+    text-align: left;
+    margin-left: 25px;
+}
+
+div.box1 p{
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
