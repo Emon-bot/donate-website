@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    
 }
 .header{
     background-repeat: no-repeat;
@@ -208,4 +209,94 @@ section.contribution .left-container a.button{
     text-align: center;
 }
 
+/*help contribution*/
 
+#help.contribution{
+    display: flex;
+    margin-top: 150px;
+    overflow:hidden;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 60vh;
+    margin-top: 100px;
+}
+
+#help.contribution .right-container{
+    width: 50%;
+    margin-left: -200px;
+    margin-right: 300px;
+}
+
+#help.contribution .right-container img.image{
+    height: 460px;
+}
+
+/*subscription-section*/
+
+section.subscription{
+    margin-top: 100px;
+    text-align: center;
+    width: 100%;
+}
+
+section.subscription h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+section.subscription p{
+    font-size: 15px;
+    letter-spacing: 3px;
+    color: gray;
+    margin-bottom: 30px;
+}
+
+.form-box{
+    padding: 70px;
+    background-color: #fff4d6;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 100px;
+}
+
+.form-box input{
+    padding: 11px;
+    width: 30%;
+    background-color: #d9d9d9;
+    border: none;
+    font-weight:800;
+    color: gray;
+    font-size: 15px;
+}
+
+.form-box button{
+    padding: 11px;
+    width: 20%;
+    margin-left: -5px;
+    border: none;
+    background-color: #ff5959;
+    color: #edf5f6;
+    font-weight: 100;
+}
+
+/*footer-section*/
+
+div.footer{
+    text-align: center;
+    padding: 50px;
+    background-color: black;
+    color: #edf5f6;
+}
+
+div.footer h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    color: #ff5959;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+div.footer p{
+    font-size: 11px;
+    color: #bfc1c8;
+}
